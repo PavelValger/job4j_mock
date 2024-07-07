@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67ca507d-4b10-41ed-9c05-a1e63dd69dfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.bsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/compare_and_pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/creaate_pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/create_upstream.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/development.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fork_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/issues_chapter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/no_assign_issue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tg_bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/AuthSrv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/domain/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/domain/Notify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/domain/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/domain/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/dto/ProfileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/repository/PhotoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/OAuthCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/PhotoMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/PhotoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/ProfileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/service/UserDetailsDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/web/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/web/controller/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/web/controller/DownloadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/web/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/web/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/java/ru/checkdev/auth/web/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/01-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/010_ddl_person_add_column_created.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/011_dml_person_insert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/012_ddl_alter_person_table_to_name_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/02-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/03-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/04-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/05-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/06-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/07-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/08-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/changelog/09_dml_person_insert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/main/resources/db/db.changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/repository/PersonRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/MessengerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/OAuthCallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/PersonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/PhotoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/ProfileServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/service/RoleServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/java/ru/checkdev/auth/web/controller/ProfileControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth/src/test/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/DescSrv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/domain/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/dto/TopicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/repository/TopicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/utility/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/web/CategoriesControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/web/CategoryControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/web/TopicControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/java/ru/checkdev/desc/web/TopicsControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/01-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/02-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/03-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/04-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/05-update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/06_dml_cd_category_insert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/changelog/07_dml_cd_topic_insert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/main/resources/db/db.changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/test/java/ru/checkdev/desc/repository/CategoryRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/test/java/ru/checkdev/desc/repository/TopicRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/test/java/ru/checkdev/desc/web/CategoriesControlAnonymousTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/test/java/ru/checkdev/desc/web/CategoryControlAnonymousTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/desc/src/test/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/MockSrv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/domain/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/domain/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/domain/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/domain/Wisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/dto/FeedbackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/dto/WisherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/mapper/FeedbackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/mapper/WisherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/repository/FeedbackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/repository/FilterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/repository/InterviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/repository/WisherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/service/FeedbackJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/service/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/service/FilterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/service/InterviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/service/WisherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/FilterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/InterviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/InterviewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/WisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/java/ru/checkdev/mock/web/WishersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/001_ddl_create_table_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/002_ddl_create_table_wisher.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/003_ddl_update_table_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/004_dml_insert_table_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/005_ddl_rename_column_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/006_ddl_add_column_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/007_dml_insert_table_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/008_ddl_add_column_status_in_wiser_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/008_ddl_create_table_cd_filter.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/008_dml_set_table_interview_topicId_notNull.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/009_dml_set_table_interview_topicId_notNull.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/010_ddl_create_table_cd_filter.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/011_ddl_rename_column_type_interview_to_mode_from_table_interviews.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/012_ddl_add_column_status_int_from_interview_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/013_ddl_create_table_cd_feedback.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/014_dml_update_table_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/015_ddl_add_constraint_table_interview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/changelog/016_ddl_add_constraint_table_wisher.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/main/resources/db/liquibase-changeLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/mapper/FeedbackMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/mapper/WisherMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/repository/FeedbackRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/repository/FilterRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/repository/InterviewRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/repository/WisherRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/service/FeedbackJpaServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/service/FilterServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/service/InterviewServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/service/WisherServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/web/FeedbackControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/web/FilterControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/web/InterviewControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/web/InterviewsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/web/WisherControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/java/ru/checkdev/mock/web/WishersControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/mock/src/test/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/NtfSrv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/config/MailConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/Notify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/SubscribeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/SubscribeTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/domain/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/filter/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/repository/SettingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/repository/SubscribeCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/repository/SubscribeTopicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/repository/TemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/service/SettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/service/SimpleGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/service/SubscribeCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/service/SubscribeTopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/service/TemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/BotMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/TgRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/action/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/action/InfoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/action/RegAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/config/TgConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/telegram/service/TgAuthCallWebClint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/web/SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/web/SubscribeCategoriesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/web/SubscribeTopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/ru/checkdev/notification/web/TemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/resources/db/changelog/001_ddl_create_table_cd_subscribe_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/resources/db/changelog/002_ddl_create_table_cd_subscribe_topic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/resources/db/db.changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/NtfSrvTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/config/MailConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/domain/PersonDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/domain/SubscribeCategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/domain/SubscribeTopicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/domain/TemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/service/MailGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/service/NotificationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/service/SubscribeCategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/service/SubscribeTopicServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/service/TemplateGenerateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/service/TemplateServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/telegram/config/TgConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/telegram/service/TgAuthCallWebClintTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/web/SubscribeCategoriesControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/java/ru/checkdev/notification/web/SubscribeTopicControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/test/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/SiteSrv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/configuration/InterceptorSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/configuration/WebClientAuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/configuration/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/CategoriesControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/CategoryControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/InterviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/InterviewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/LoginControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/PhotoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/ProfilesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/RequestResponseTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/TopicControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/TopicsControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/WisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/rest/FilterRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/rest/InterviewsRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/controller/rest/TopicsRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/domain/Breadcrumb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/domain/StatusInterview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/domain/StatusWisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/CredentialDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/FeedbackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/FilterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/InterviewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/InterviewStatistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/PhotoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/ProfileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/SubscribeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/SubscribeTopicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/TopicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/TopicIdNameDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/TopicLiteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/UserTopicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/WisherDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/dto/WisherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/CategoriesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/FeedbackServiceWebClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/FilterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/ImageCompress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/ImageCompressorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/InterviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/InterviewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/PhotoServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/ProfilesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/RestAuthCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/TopicsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/WebClientAuthCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/WisherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/service/WisherServiceWebClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/java/ru/job4j/site/util/RestPageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/static/img/icons/svg/check-double-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/static/img/icons/svg/check-double-solid_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/categories/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/categories/createForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/categories/editCategoryForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/interview/createForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/interview/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/interview/feedbackForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/interview/interviewEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/interview/interviews.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/interview/participate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/persons/personEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/persons/personView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/profiles/profileView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/profiles/profiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/topic/createForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/topic/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/topic/topics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/main/resources/templates/topic/updateForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/CategoryControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/FeedbackControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/IndexControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/InterviewControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/InterviewsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/LoginControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/PersonControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/ProfilesControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/RequestResponseToolsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/TopicControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/TopicsControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/controller/WisherControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/domain/StatusInterviewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/service/FeedbackServiceWebClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/service/ImageCompressorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/service/InterviewServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/java/ru/job4j/site/service/WisherServiceWebClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/site/src/test/resources/testfiles/olafAva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/mock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.bsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stop.bsh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ivIYnTA78W2QVjPq3w5kpSdRgO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67ca507d-4b10-41ed-9c05-a1e63dd69dfe" name="Changes" comment="" />
+      <created>1720364674754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720364674754</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
